@@ -10,31 +10,26 @@
     <h1>Rock Paper Scissors The Game</h1>
     <div class="scoreboard">
         <div id="player-score">
-            <h2>Player</h2>
+            <h2>Player wins:</h2>
             <p>0</p>
         </div>
         <div id="AI-score">
-            <h2>AI</h2>
+            <h2>AI wins:</h2>
             <p>0</p>
         </div>
     </div>
-    <div class="result">
-        <p>Scissors cut paper. You win!</p>
-    </div>
+    <div id="PlayerChoice">Player Choice:</div>
+    <div id="ComputerChoice">Computer Choice:</div>
+    <div id="Result">Final Result:</div>
     </div>
     <div class="choose">
-        <button onclick="play('rock')"><img src="rock.png" alt=""> </button>
-        <button onclick="play('paper')"><img src="paper.png" alt=""></button>
-        <button onclick="play('scissors')"><img src="scissors.png" alt=""></button>
+        <button onclick="PlayGame('rock')"><img src="rock.png" alt=""> </button>
+        <button onclick="PlayGame('paper')"><img src="paper.png" alt=""></button>
+        <button onclick="PlayGame('scissors')"><img src="scissors.png" alt=""></button>
     </div>
-
-
-
-
-
-
     <footer>
         <a href="https://www.vecteezy.com/free-vector/rock-paper-scissors-game">Rock Paper Scissors Game Vectors by Vecteezy</a>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
