@@ -27,11 +27,19 @@ h1 {
     padding: 15px;
     font-size: 20px;
 }
-.result {
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    margin-bottom: 100px;
+#PlayerChoice, #ComputerChoice, #Result {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#PlayerChoice {
+    color: blue;
+}
+#ComputerChoice {
+    color: red;
+}
+#Result {
+    font-weight: bold;
 }
 .choose {
     display: flex;
