@@ -18,7 +18,7 @@ setInterval(() => {
     if (seconds < 10) {
         seconds = `0` + seconds;
     }
-    hrs.innerHTML = hours;
-    min.innerHTML = minutes;
-    sec.innerHTML = seconds;
+    hrs.textContent = hours;
+    min.textContent = minutes;
+    sec.textContent = seconds;
 },1000)
