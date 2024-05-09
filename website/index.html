@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/First Assignment/kp-high-resolution-logo-white.png" alt="">
+        <nav id="mySidenav" class="navigation">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </header>
+    <section id="home">
+        <div class="home">
+            <h2>My name is Kornel Pralat</h2>
+            <h3>Junior Frontend Developer</h3>
+            <p>I recently started 3 month Software Development Bootcamp 
+            that will hopefully let me improve to the professional level. 
+            I am based in Watford. I have a background in Sport Therapy 
+            and Hospitality mostly in leadership roles.
+            </p>
+        </div>
+    </section>
+        
+    <section id="skills">
+        <div class="skills">
+            <h2>Development Experience</h2>
+        </div>
+            <p>
+                <i class='bx bxl-html5'></i>
+                <i class='bx bxl-python' ></i>
+                <i class='bx bxl-css3' ></i>
+                <i class='bx bx-code-alt' ></i>
+            </p>
+        
+    </section>
+    <section id="projects" class="projects">
+        <div>
+            <h2>Projects</h2>
+            <p class="project">
+                <a href="https://replit.com/@Vartas">
+                    <i class='bx bxs-folder-open'></i>
+                </a>
+                <a href="https://github.com/KornelPralat/Coding-work.git">
+                    <i class='bx bxs-folder-open'></i>
+                </a>
+            </p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact">
+            <h2>Contact Form</h2>
+            <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+            <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+            <input type="email" name="email" placeholder="Email address" autocomplete="off" required>
+            <textarea name="message" cols="60" rows="5" placeholder="Enter message" autocomplete="off" required></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+    </section>
+    <div class="footer">
+        <p class="social">
+            <a href="https://www.linkedin.com/in/kornel-pralat-8a94752ba">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://github.com/KornelPralat/Coding-work.git">
+                <i class='bx bxl-github'></i>
+            </a>
+        </p>
+        <p class="last">Copyright &copy;2024. Designed by Kornel Pralat.</p>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
