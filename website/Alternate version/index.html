@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <header>
+        <nav id="mySidenav" class="navigation">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#skills">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </header>
+    <section id="home">
+        <div class="home">
+            <h2>My name is Kornel Pralat
+                <img class="logo" src="https://github.com/KornelPralat/Portfolio/blob/main/Pictures/kp-high-resolution-logo-white.png?raw=true" alt="">
+            </h2>
+            <h3>Junior Frontend Developer</h3>
+            <p>I have recently completed an intensive 3-month bootcamp focused on 
+                software development. During this program, I gained valuable 
+                experience and skills in HTML, CSS, JavaScript, Figma, and Blender. 
+                These tools have opened up a world of possibilities, and I am excited 
+                to continue expanding my knowledge and expertise in these areas. 
+                My journey in web development and digital design is just beginning, 
+                and I am eager to apply my skills to create innovative and engaging 
+                projects.
+            </p>
+        </div>
+    </section>
+        
+    <section id="skills">
+        <div class="skills">
+            <h2>Development Experience</h2>
+        </div>
+            <p class="icons-container">
+                <i class='bx bxl-html5 html5-icon'></i>
+                <i class='bx bxl-python python-icon'></i>
+                <i class='bx bxl-css3 css3-icon'></i>
+                <i class='bx bx-code-alt code-icon'></i>
+                <i class='bx bxl-javascript javascript-icon'></i>
+                <i class='bx bxl-blender blender-icon'></i>
+            </p>
+        
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="roll_box">
+            <div class="box1">
+                <img src="https://raw.githubusercontent.com/KornelPralat/Portfolio/main/Pictures/Screenshot%202024-05-16%20120059.png" alt="Image 1">
+            </div>
+            <div class="box2">
+                <img src="https://raw.githubusercontent.com/KornelPralat/Portfolio/main/Pictures/Screenshot%202024-05-16%20122826.png" alt="Image 2">
+            </div>
+            <div class="box3">
+                <img src="https://raw.githubusercontent.com/KornelPralat/Portfolio/main/Pictures/Screenshot%202024-05-16%20122930.png" alt="Image 3">
+            </div>
+            <div class="box4">
+                <img src="https://raw.githubusercontent.com/KornelPralat/Portfolio/main/Pictures/Screenshot%202024-05-16%20123037.png" alt="Image 4">
+            </div>
+            <div class="box5">
+                <img src="https://raw.githubusercontent.com/KornelPralat/Portfolio/main/Pictures/Screenshot%202024-05-16%20123110.png" alt="Image 5">
+            </div>
+        </div>
+        <div class="description-box">
+            <p class="desc1">Developing Schedule of Life marked my initial venture into crafting 
+                a to-do list application. A significant hurdle encountered throughout the project 
+                revolved around ensuring that newly added tasks did not overshadow the primary menu
+                 responsible for task input. This challenge presented an engaging opportunity to 
+                 devise effective solutions. Overall, navigating this project proved to be a 
+                 stimulating exercise in problem-solving within a professional context.
+            </p>
+            <p class="desc2">The initial challenge I faced was the creation of a website. The first 
+                iteration was characterized by simplicity, lacking animations and visual 
+                elements. The subsequent iteration, which you now have the opportunity to 
+                observe, represents a significant refinement.</p>
+            <p class="desc3">The development of the weight converter posed a considerable 
+                mathematical challenge. I found myself revisiting my approach several times 
+                to ensure its accuracy and functionality, testing each iteration 
+                to validate the coherence of weight conversions. Through this process, I 
+                deepened my understanding of mathematical concepts while honing my 
+                problem-solving skills. The experience underscored the importance of 
+                meticulousness and thoroughness in software development.</p>
+            <p class="desc4">The development of the Digi Clock App introduced a set of challenges,
+                 despite its apparent simplicity. While retrieving the time through JavaScript 
+                 presented a straightforward task, accurately displaying it proved to be more 
+                 complex, requiring meticulous attention to both JavaScript and CSS intricacies. 
+                 This experience underscored the importance of precision in code implementation 
+                 and highlighted the nuanced interplay between JavaScript logic and CSS styling 
+                 in achieving desired visual outcomes.</p>
+            <p class="desc5">The endeavor of creating a Rock Paper Scissors game served 
+                as a profound learning experience in JavaScript, HTML, and CSS development. 
+                Through this project, I gained invaluable insights into the intricacies of 
+                these technologies, honing my skills in crafting interactive web applications. 
+                Moreover, this project ignited my interest in asset creation using Blender. 
+                Several assets related to this journey are available for reference on my 
+                GitHub repository, showcasing the evolution of my skills and interests in 
+                the realm of web development and digital design.</p>
+        </div>        
+    </section>
+    <section id="contact">
+        <div class="contact">
+            <h2>Contact Form</h2>
+            <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+            <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+            <input type="email" name="email" placeholder="Email address" autocomplete="off" required>
+            <textarea name="message" cols="60" rows="5" placeholder="Enter message" autocomplete="off" required></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+    </section>
+    <div class="footer">
+        <p class="last">Copyright &copy; 2024. Designed by Kornel Pralat.</p>
+        <p class="social">
+            <a href="https://www.linkedin.com/in/kornel-pralat-8a94752ba">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://github.com/KornelPralat/Portfolio.git">
+                <i class='bx bxl-github'></i>
+            </a>
+        </p>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
