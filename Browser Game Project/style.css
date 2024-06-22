@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/illuminated-leaf_LY7NRSB5N5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro {
+    border: 3px solid;
+    border-radius: 10px;
+    width: 30%;
+    background: rgb(3, 3, 77)
+}
+
+.intro h2 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.intro p {
+    color: white;
+}
+
+.button-login {
+    background-color: white;
+    color: rgb(3, 3, 77);
+    font-size: 20px;
+    border: 2px solid rgb(3, 3, 77);
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button-reg {
+    background-color: white;
+    color: rgb(3, 3, 77);
+    font-size: 20px;
+    border: 2px solid rgb(3, 3, 77);
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+}
